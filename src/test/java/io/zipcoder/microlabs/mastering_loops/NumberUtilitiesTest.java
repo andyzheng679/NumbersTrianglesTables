@@ -176,7 +176,6 @@ public class NumberUtilitiesTest {
         String expected = "681012141618";   //  swapped this with testGetOddNumbers
         int start = 5;
         int stop = 20;
-        int step = 5;
 
         // : When
         String actual = NumberUtilities.getEvenNumbers(start, stop);
